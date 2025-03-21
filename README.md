@@ -1,3 +1,7 @@
+### octavpelin's assignments
+
+[Assignment 2](./assignments/assignment2/index.html)
+
 # Coursera: HTML, CSS and Javascript for Web Developers
 ## Example Source Code
 This repository contains all of the example source code used in the Coursera.org course called
@@ -15,7 +19,3 @@ Please check our FAQ to see if a question you want to ask on the forums has been
 As part of this course we developed a *real* website for a *real* client. Below is a link to the final product. (*Note*, the site is left without speed optimization to keep it exactly as it was in the course. Site optimization wasn't part of the course).
 
 [David Chu's China Bistro Restaurant in Baltimore, MD](http://www.davidchuschinabistro.com/)
-
-### octavpelin's addition
-
-[Assignment 2](./assignments/assignment2)
