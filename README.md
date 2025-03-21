@@ -1,6 +1,6 @@
 ### octavpelin's assignments
 
-[Assignment 2](./assignments/assignment2/index.html)
+[Module 2 Assignment](./assignments/module2_solution/index.html)
 
 # Coursera: HTML, CSS and Javascript for Web Developers
 ## Example Source Code
