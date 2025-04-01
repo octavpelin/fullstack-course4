@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** Header styles **/
+
+#header-nav {
+    background-color: grey;
+    margin: 0;
+}
+
+.navbar-brand {
+    /* padding-top: 25px; */
+}
+
+.navbar-brand h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 1em;
+}
+.navbar-brand a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+button.navbar-toggler {
+    border: 2px solid white;
+    color: white;
+    border-radius: 0;
+    margin-top: 8px;
+    padding: 9px 10px;
+}
+.navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white;
+}
+.navbar-toggler .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
