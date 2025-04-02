@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: black;
 
 }
 body {
@@ -12,17 +13,14 @@ body {
 
 #header-nav {
     background-color: grey;
-    margin: 0;
-}
-
-.navbar-brand {
-    /* padding-top: 25px; */
+    border-radius: 0;
+    border: 0;
 }
 
 .navbar-brand h1 {
     font-size: 1.5em;
     font-weight: bold;
-    margin: 10px 1em;
+    margin: 0 1em;
 }
 .navbar-brand a {
     text-decoration: none;
@@ -33,8 +31,18 @@ body {
     text-decoration: none;
 }
 
+#collapsible-nav {
+    border: 0;
+}
+
 #nav-list {
-    margin-top: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list li {
+    border: 1px solid black;
+    background-color: whitesmoke;
 }
 
 #nav-list a {
@@ -44,20 +52,34 @@ body {
     font-size: 1.1em;
 }
 
-button.navbar-toggler {
-    border: 2px solid white;
-    color: white;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+    color: black;
     border-radius: 0;
-    margin-top: 8px;
-    padding: 9px 10px;
 }
-.navbar-toggler .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
-    background-color: white;
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
 }
-.navbar-toggler .icon-bar + .icon-bar {
-    margin-top: 4px;
+
+/** end of HEADER **/
+
+/** CONTENT **/
+div #title {
+    margin-bottom: .5em;
+}
+
+.menu-entry {
+    background-color: grey;
+    border: 1px solid black;
+    margin: 5px;
+}
+.menu-description {
+    margin: 1em 1em 0.2em 1em;
+    clear: right;
+}
+
+.menu-description a {
+    color: blue;
 }
