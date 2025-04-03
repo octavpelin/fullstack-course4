@@ -2,6 +2,7 @@
 
 * [Module 2 Assignment](./assignments/module2_solution/index.html)
 * [Module 3 Assignment](./assignments/module3_solution/index.html)
+* [Module 4 Assignment](./assignments/module4_solution/index.html)
 
 # Coursera: HTML, CSS and Javascript for Web Developers
 ## Example Source Code
